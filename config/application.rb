@@ -9,7 +9,7 @@ require "action_mailer/railtie"
 require 'mongoid/railtie'
 require "sprockets/railtie"
 require "jquery-rails"
-require "underscore"
+require "underscore-rails"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
