@@ -10,7 +10,7 @@ require 'mongoid/railtie'
 require "sprockets/railtie"
 require "jquery-rails"
 require "underscore-rails"
-require "pjax-rails"
+require "pjax_rails"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
